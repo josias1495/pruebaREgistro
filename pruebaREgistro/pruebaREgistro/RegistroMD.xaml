@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="pruebaREgistro.RegistroMD">
+    <ContentPage.Content>
+        <StackLayout Margin="15"
+                 Padding="60"
+                 Spacing="15"
+                 BackgroundColor="White"
+                 HorizontalOptions="Center"
+                 VerticalOptions="Center">
+            <StackLayout>
+                <!-- Place new controls here -->
+                <Label Text="REGISTRO DE MATERIALES DIRECTO DE PRODUCION" HorizontalOptions="Center"/>
+                <Label Text="Descripción"/>
+                <Entry Placeholder="Ingrese nombre de material" x:Name="DescripcionMD"/>
+                <Label Text="Cantidad"/>
+                <Entry Placeholder="Ingrese Cantidad que utiliza" x:Name="CantidadMD"/>
+                <Label Text="Unidades Producidas"/>
+                <Entry Placeholder="Ingrese cuantas unidades produce" x:Name="UnidadesProducidasMD"/>
+                <Label Text="Precio"/>
+                <Entry Placeholder="Ingrese valor del producto" x:Name="PrecioMD"/>
+                <Button Text="Guardar" x:Name="Guardar" Clicked="Guardar_Clicked_1" HorizontalOptions="Center" VerticalOptions="Center"></Button>
+
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
